@@ -1,5 +1,7 @@
 import pandas as pd
+uploaded_file = st.file_uploader("Upload CSV file")
 
+if upload file is not None:
 df = pd.read_csv(r"D:\internship\HHS_Unaccompanied_Alien_Children_Program.csv")
 
 df['Date'] = pd.to_datetime(df['Date'])
